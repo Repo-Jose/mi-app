@@ -1,0 +1,876 @@
+.cajaEjer{
+	position:relative;
+	left: 43%;
+	top: -449px;
+	margin-bottom: -449px
+}
+.cajaEjer1{
+	position:relative;
+	left: 43%;
+	top: -449px;
+	margin-bottom: -311px;
+}
+
+#datosAlumno{
+	position: relative;
+	left: 30%;
+}
+
+#infoUser{
+	font-size: 7vw;
+	position: relative;
+	bottom: -69px;
+	margin-top: -107px;
+}
+.btnCerrar{
+	position: relative;
+	top: 10px;
+}
+.btnVolver{
+	position: relative;
+	top: 2.5px;
+	left: 23.35%;
+}
+
+.carousel{
+	width: 100%;
+	max-width:1300px !important;
+	height:330px !important;
+}
+
+.fondo_inicio_sesion{ 
+	background-image: url(../images/login_background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+.caja_inicio_sesion{
+	width: 350px;
+  	box-sizing: content-box;
+  	background: #4e4f54;
+  	background-size: cover;
+  	margin: 150px auto;
+}
+
+.caja_inicio_sesion .formulario_inicio_sesion {
+  width: 100%;
+  height: auto;
+  min-height: 50%;
+  overflow: hidden;
+  padding: 15px 25px;
+}
+
+.caja_inicio_sesion .formulario_inicio_sesion h1 {
+  color: #FFF;
+  text-align: left;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.caja_inicio_sesion .formulario_inicio_sesion input {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  background: none;
+  border:none;
+  padding: 0 15px;
+  color: #FFF;
+  font-size: 14px;
+}
+
+.caja_inicio_sesion .formulario_inicio_sesion .credenciales {
+	width: 100%;
+	padding: 10px;
+	margin-top: 25px;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #DBE4EE;
+}
+.caja_inicio_sesion .formulario_inicio_sesion .credenciales::placeholder {
+	color: white;
+}
+.caja_inicio_sesion .formulario_inicio_sesion .botonLogIn{
+	cursor: pointer; 
+	text-align:center;
+	margin-top : 20px;
+	color: #000;
+	width: 100%;
+	font-size: 16px;
+	border-radius: 5px;
+	float: left;
+	background-color: white;
+	box-shadow: white;
+	margin-top: 20px;
+}
+.registrarCuenta{
+	color: white;
+}
+
+.caja_inicio_sesion .formulario_inicio_sesion .botonSignIn{
+	cursor: pointer; 
+	text-align:center;
+	color: #000000;
+	width: 40%;
+	font-size: 16px;
+	border-radius: 5px;
+	float: right;
+	background-color: white;
+}
+.caja_inicio_sesion .formulario_inicio_sesion .botonCacelar{
+	position: relative;
+	bottom: 16px;
+	cursor: pointer; 
+	text-align:center;
+	color: #000000;
+	width: 40%;
+	font-size: 16px;
+	border-radius: 5px;
+	float: left;
+	background-color: white;
+}
+
+#botonUsuario{
+	background-color: white;
+	color: #000000;
+}
+
+.atras{
+	position: relative;
+	right: 45%;
+	top: 35px;
+	font-size: 22px;
+	text-decoration: none; 
+	color: black;
+}
+.atras:hover{
+	color: black;
+	text-decoration: none;
+}
+.iconoDashboardAlumno{
+	position: relative;
+	margin-left: 87%;
+	bottom: 3px;
+}
+.iconoPapelera{
+	position: relative;
+	margin-left: 65%;
+	bottom: 30%;
+}
+
+.iconoTraspasar{
+	position: relative;
+	margin-left: 65%;
+	bottom: 20%;
+}
+
+.fondoPaginas{
+	background: #FFF;
+}
+.barraNavegacion {
+	position: absolute;
+	background-color: #ffffff;
+	box-shadow: 0px 1px 15px 0px #000000;	
+	height: 70px;
+	z-index: 1;
+}
+
+.barraCurso{
+	min-height: 70px;
+	background-color: #000000;
+}
+.datosCurso{
+	color: white;
+}
+.curso{
+	font-size: 27px;
+	text-decoration: none;
+}
+.curso:hover{
+	color: white;
+}
+.codigoCurso{
+	font-size: 15px;
+	font-style:italic;
+	position: relative;
+	bottom: 3px;
+	
+}
+
+.miembros{
+	font-size: 15px;
+		font-style: normal;
+	
+	position: relative;
+	bottom: 3px;
+}
+
+.menuDesplegable {
+	display: none;
+	top: 62.5px;
+	box-shadow: 0px 1px 15px 0px #000000;	
+}
+.iconoMenu {
+	position: relative;
+	top:2px;
+	left:20px;
+	color: blcak;
+	background: none;
+	border: none;
+	font-size: 30px;
+	cursor: pointer;	
+}
+.button-option{
+	position: relative;
+	left: 40px; 
+	top: 25px;
+	color: black;
+	background: none;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+.button-option:hover {color: black;}
+
+.iconoPerfil {
+	color: black;
+	background: none;
+	border: none;
+	font-size: 45px;
+	cursor: pointer;	
+}
+.menuPerfil{
+	background:white;
+	position: fixed;
+	min-width:300px;
+	height:150px;
+	overflow: hidden;
+	z-index: 2;
+	box-shadow: 0px 1px 5px 1px #000000;
+	display:none;
+	right:0;
+	top: 70px;
+	font:sans-serif;
+	font-size: 12px;
+}
+.perfilUsuario{
+	position: relative;
+	left: 25px;
+	top: -10px;
+	color: black;
+	font-size: 75px;
+}
+.datosUsuario1{
+	position: relative;
+	left: 130px;
+	bottom: 70px;
+	color: black;
+	font:sans-serif;
+	font-size: 12px;
+	font-weight: bold;	
+}
+.datosUsuario2{
+	position: relative;
+	left: 130px;
+	bottom: 80px;
+	color: black;
+	font:sans-serif;
+	font-size: 12px;
+}
+.verPerfil{
+	color:blue;
+	position: relative;
+	left: 125px;
+	bottom: 85px;
+}
+
+.iconoLogOut{
+	position: relative;
+	top:-5px;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 87%;
+}
+
+.botonLogOut{
+	position: relative;
+	top: 15px;
+	left: 55%;
+	color: black;
+	font:sans-serif;
+	font-size: 12px;
+	background: none;
+	border: none;
+}
+
+.tituloPrincipal{
+	position: relative;
+	color: #000000;
+	font-weight: bold;
+	font-size: 30px;
+	top: 7px;
+}
+.subTituloPrincipal{
+	position: relative;
+	color: #000000;
+	font-weight: bold;
+	top: 30px;
+}
+
+.cajaModalCabecera h5{
+	position: relative;
+	left: 25%;
+	font-weight: bold;
+	color: #484445;
+}
+
+.cajaModalCuerpo label {
+	margin-bottom:5px;  
+  	margin-top: 20px;
+}
+
+.cajaModalCuerpo .campos {
+	border: 2px solid;
+	border-color: #000000;
+}
+
+.cajaModalCuerpo .botonModal {
+	margin-top: 40px;
+	background-color: #000000;
+	color: white;
+}
+
+.cajaModalCuerpo .nuevosCredenciales .usuarioBorrar{
+	position: relative;
+	left: 5%;
+}
+
+.cajaModalCuerpo .usuarioBorrar{
+	position: relative;
+	left: 5%;
+}
+
+.cartaCurso{
+	cursor: pointer;	
+}
+
+
+.tituloPerfil{
+	position: relative;
+	bottom: 200px;
+	color: #000000;
+	font-weight: bold;
+	font-size: 30px;
+	left: 25%;
+}
+.iconoUser{
+	position: relative;
+	right: 0%;
+	top:95px;
+	font-size:15vw;
+}
+.datos{
+	position:relative;
+	left: 25%;
+	bottom: 160px;
+}
+.cambioPassword{
+	color: #0091DA;
+	cursor: pointer;
+	text-decoration: none;
+}
+.separador{
+	position:relative;
+	width:50%;
+	bottom:15px;
+	color:#000000;
+	background-color: #000000;
+}
+
+
+.iconoFuncion{
+	width: 100%;
+	margin: 10px auto 10px;
+  	display: block;
+}
+img{
+	width: 100%;
+  	height: 200px;
+}
+
+.botonCarta1{
+	cursor: pointer;
+	width:100%;
+	height:220px;
+}
+.botonCarta1:hover .cuerpoCarta1 {
+	border-bottom: 3px solid #0071B6;
+}
+.cabeceraCarta1{
+	width:100%;
+	height:200px;
+}
+.cuerpoCarta1{
+	width:100.15%;
+	height:50%;
+	position: relative;
+	top: 2%;
+	right: 0.5;
+	background: #A4CCF4;
+}
+
+.botonCarta2{
+	cursor: pointer;
+	width:100%;
+	height:220px;
+}
+.botonCarta2:hover .cuerpoCarta2 {
+	border-bottom: 3px solid #FFB000;
+}
+.cabeceraCarta2{
+	width:100%;
+	height:200px;
+}
+.cuerpoCarta2{
+	width:100.15%;
+	height:50%;
+	position: relative;
+	top: 2%;
+	right: 0.5;
+	background: #FFE800;	
+}
+
+.botonCarta3{
+	cursor: pointer;
+	width:100%;
+	height:220px;
+}
+.botonCarta3:hover .cuerpoCarta3 {
+	border-bottom: 3px solid #DD3B00;
+}
+.cabeceraCarta3{
+	width:100%;
+	height:200px;
+}
+.cuerpoCarta3{
+	width:100%;
+	height:50%;
+	position: relative;
+	top: 2%;
+	background: #fe6a5f;
+}
+.botonCarta4{
+	cursor: pointer;
+	width:100%;
+	height:220px;
+}
+.botonCarta4:hover .cuerpoCarta4 {
+	border-bottom: 3px solid #36C787;
+}
+.cabeceraCarta4{
+	width:100%;
+	height:200px;
+}
+.cuerpoCarta4{
+	width:100%;
+	height:50%;
+	position: relative;
+	top: 2%;
+	background: #84df79;
+}
+.botonCarta5{
+	cursor: pointer;
+	width:100%;
+	height:220px;
+}
+.botonCarta5:hover .cuerpoCarta5 {
+	border-bottom: 3px solid #6830B1;
+}
+.cabeceraCarta5{
+	width:100%;
+	height:200px;
+}
+.cuerpoCarta5{
+	width:100%;
+	height:50%;
+	position: relative;
+	top: 2%;
+	background: #a800d2;
+}
+.botonCarta6{
+	cursor: pointer;
+	width:100%;
+	height:220px;
+}
+.botonCarta6:hover .cuerpoCarta6 {
+	border-bottom: 3px solid #3CC6D7;
+}
+.cabeceraCarta6{
+	width:100%;
+	height:200px;
+}
+.cuerpoCarta6{
+	width:100%;
+	height:50%;
+	position: relative;
+	top: 2%;
+	background: #B4EEEF;
+}
+
+
+.boton_ejercicios{
+	font-size: 20px;
+	border: none;
+	border-radius: 7px;
+	background-color: white;
+	min-width: 10%;
+	min-height: 25px; 
+}
+.boton_ejercicios:hover{
+	color: white;
+	background-color: black; 
+}
+.boton_dashboard{
+	position: relative;
+	left: 90%;
+	top: 30px;
+	border: none;
+	border-radius: 7px;
+	background-color: white;
+	min-width: 12%;
+	min-height: 45px;
+}
+.boton_dashboard:hover {
+	color: white;
+	background-color: black; 
+}
+
+.atrasDashboard{
+	text-decoration: none;
+}
+
+.atrasDashboard:hover{
+	color:black;
+}
+
+.tituloDashboard{
+	position: relative;
+	left: 5%;	
+}
+
+.cuerpoDashboard{
+	position: relative;
+	top:10%;
+	left: 10%;
+}
+
+@media (max-width:767.20px){
+	.cuerpoDashboard2 .valor{
+		position: absolute;
+		bottom: 40px;
+		left: 5%;
+		font-size: 80px;
+	}
+	.datoGrafico{
+		position: absolute;
+		bottom: 80px;
+		left: 72%;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.porcentaje{
+		white-space: nowrap;
+		position: absolute;
+		top:23px;
+		font-stretch:normal;
+		font-weight: bold;
+	}
+	.cuerpoDashboard2 .grafico{
+		position: absolute;
+	  	font-size: 5vw;
+		bottom: -50px;
+	  	left: 35%;
+		width: 30%;
+	}
+}
+@media (min-width:768px){
+	.valor{
+		position: absolute;
+		left: 5%;
+		font-size: 5.390625vw;
+	}
+	.datoGrafico{
+		position: absolute;
+		bottom: 80px;
+		left: 72%;
+		font-weight: bold;
+		font-size: 1.250625vw;
+	}
+	.porcentaje{
+		white-space: nowrap;
+		position: absolute;
+		top:23px;
+		font-weight: bold;
+	}
+	.cuerpoDashboard2 .grafico{
+		position: absolute;
+	  	font-size: 5vw;
+		bottom: -50px;
+	  	left: 41.5%;
+		width: 30%;
+	}
+}
+
+.graficoObj{
+	width: 100%;
+	height: 80%;
+}
+
+
+.dashboard4{ 
+	height: 355px;
+}
+
+.tituloDashboard4{
+	position: relative;
+	left: 40%;
+}
+.graficoActividad{
+	position: relative;
+	right: 9%;
+	width: 99%;
+	height: 250px;
+}
+
+.graficoRendimiento{
+	position: absolute;
+	width: 70%;
+	left: 70px;	
+	bottom: 11px;
+}
+
+.g{
+	height: 200px;
+}
+
+
+@media (min-width:991.20px) and (max-width:1999.20px){
+	.cuerpoDashboard2 .valor{
+		position: absolute;
+		bottom: 60px;
+		left: 5%;
+		font-size: 40px;
+	}
+	.datoGrafico{
+		position: absolute;
+		bottom: 80px;
+		left: 68%;
+		font-weight: bold;
+		font-size: 15px;
+	}
+	.porcentaje{
+		white-space: nowrap;
+		position: absolute;
+		top:23px;
+		font-stretch:normal;
+		font-weight: bold;
+	}
+	
+	.graficoAlumno{
+		position: absolute;
+		bottom: 50px;
+	  	right: 28%;
+		width: 50%;
+		height: 40%
+	}
+	
+	.graficoRendimientoA{
+		position: absolute;
+		width: 90%;
+		height: 60%;
+		right: 10px;	
+		bottom: 25px;
+	}	
+}
+
+@media (min-width:1200px){
+	.cuerpoDashboard2 .valor{
+		position: absolute;
+		bottom: 40px;
+		left: 5%;
+		font-size: 80px;
+	}
+	.datoGrafico{
+		position: absolute;
+		bottom: 80px;
+		left: 72%;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.porcentaje{
+		white-space: nowrap;
+		position: absolute;
+		top:23px;
+		font-stretch:normal;
+		font-weight: bold;
+	}
+	.graficoAlumno{
+		position: absolute;
+		bottom: 30px;
+	  	right: -2.5%;
+		width: 100%;
+		height: 60%
+	}
+		
+	.graficoRendimientoA{
+		position: absolute;
+		width: 100%;
+		height: 72%;
+		right: 10px;	
+		bottom: 10px;
+	}	
+}
+
+
+.cajaEjercicios{
+	position: relative;
+  	margin-top: 3%;
+  	left: 30%;
+  	height:auto;
+  	min-height: 35%;
+  	width: 40%; 
+  	background-color: white;
+}
+.cajaEnunciado {
+	position: relative;
+	top: 15px;
+	left: 2.5%;	
+	min-height: 100px;
+	overflow: hidden;
+  	width: 95%;
+  	background-color: #5f5f5f;
+  	color: white;
+  	font-size: calc(12px + 0.390625vw);
+  	font-family: Copperplate;
+  	
+}
+
+.enunciado{
+	margin: 2% 2% 2% 2%;
+}
+
+.cajaRespuesta{
+	position: relative;
+	top: 15px;
+	left: 2.5%;	
+  	width: 95%;
+  	font-size: calc(9px + 0.390625vw);
+}
+.botonEnviarRespuesta{
+	box-sizing:border-box;
+	margin-top: 50px;
+	margin-left: 80%;
+	min-width: 15%;
+	height: 40px;	
+  	font-size: calc(11px + 0.390625vw);
+  	border: none;
+  	border-radius: 5px;
+  	color: white;
+  	background-color: #5f5f5f;
+}
+
+.cajaMensajeError {
+	position: relative;
+	margin-top: 10px;
+	left: 10px;
+}
+
+.mensajeError{
+	padding: 5px 10px 5px 10px;
+	float: left;
+	color: white;
+	background-color: #9f9f9f;
+	font-size: calc(9px + 0.390625vw);
+}
+
+.cajaRespuestaError {
+	position: relative;
+	margin-top: 10px;
+	right: 10px;
+}
+
+.respuestaError{
+	padding: 5px 10px 5px 10px;
+	float: right;
+	background-color: #e5e5e5;
+	font-size: calc(9px + 0.390625vw);
+}
+
+.temario{
+	text-decoration: none;
+	font-size: 25px;
+	font-family: Copperplate;
+}
+
+.temario:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+
+.clasificacion{
+	position: relative;
+	left: 15%;
+	top: 20px;
+}
+
+.mejores{
+	border-bottom: 2px solid black;
+	height: 10%;
+	width: 60%;
+	display: inline-table; 
+}
+
+.mejores div{
+	display: table-cell; 
+   	vertical-align: middle;
+}
+
+.yo{
+	position: relative;
+	left: 15%;
+	top: 100px;
+	border: 2px solid black;
+	height: 10%;
+	width: 60%;
+	display: inline-table;
+}
+
+.yo div{
+	display: table-cell; 
+   	vertical-align: middle;
+}
+
+
+.botonObejtivo{
+	border-color: black;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+.botonObejtivo:hover{
+	background-color: black;
+	color: white;
+}
+
+
+.sinAzul{
+	text-decoration: none;
+}
+.sinAzul:hover {
+	text-decoration: underline;
+	color:black;
+}
+
